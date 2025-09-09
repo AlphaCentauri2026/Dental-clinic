@@ -1,0 +1,30 @@
+{
+  "name": "BrightSmile Dental Clinic",
+  "tagline": "Caring for Your Smile with Expertise and Compassion",
+  "description": "BrightSmile Dental Clinic provides comprehensive dental care with modern technology and compassionate service. Our team of experienced dentists and hygienists ensures every patient feels comfortable and confident.",
+  "contact": {
+    "phone": "(555) 123-4567",
+    "email": "info@brightsmile.com",
+    "address": "456 Main Street, Long Island, NY"
+  },
+  "hours": {
+    "monday": "9am - 6pm",
+    "tuesday": "9am - 6pm",
+    "wednesday": "9am - 6pm",
+    "thursday": "9am - 6pm",
+    "friday": "9am - 5pm",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "socials": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": ""
+  }
+}
+
+
+
+
+
+
