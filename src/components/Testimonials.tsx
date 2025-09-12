@@ -24,9 +24,9 @@ const Testimonials: React.FC<TestimonialsProps> = ({ testimonials }) => {
   });
 
 const testimonialImages = [
-  '/dental website assets/Happy_patient_smiling_in_a_dental_chair_fri_0.jpg',
-  '/dental website assets/Smiling_patient_in_a_dentist_chair_being_gr_3.jpg',
-  '/dental website assets/Family_walking_out_of_dental_clinic_smiling_0.jpg'
+  '/Dental clinic images/pexels-fr3nks-287237.jpg',
+  '/Dental clinic images/pexels-fr3nks-305564.jpg',
+  '/Dental clinic images/pexels-fr3nks-305566.jpg'
 ];
 
   const renderStars = (rating: number) => {

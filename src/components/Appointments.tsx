@@ -185,7 +185,7 @@ const Appointments: React.FC = () => {
             {/* Image */}
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/dental website assets/Tablet_device_displaying_patient_forms_bein_0.jpg"
+                src="/Dental clinic images/pexels-pavel-danilyuk-6812520.jpg"
                 alt="Patient scheduling appointment"
                 fill
                 sizes="(max-width: 640px) 100vw, 50vw"

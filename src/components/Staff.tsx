@@ -16,9 +16,9 @@ interface StaffProps {
 }
 
 const staffImages = [
-  '/dental website assets/Portrait_of_a_female_dental_hygienist_weari_0.jpg',
-  '/dental website assets/Portrait_of_a_smiling_male_dentist_in_white_1.jpg',
-  '/dental website assets/Portrait_of_a_female_dental_hygienist_weari_1.jpg'
+  '/Dental clinic images/dentist-428645_1280.jpg',
+  '/Dental clinic images/dentist-998830_1280.jpg',
+  '/Dental clinic images/doctor-563429_1280.jpg'
 ];
 
 const Staff: React.FC<StaffProps> = ({ staff }) => {

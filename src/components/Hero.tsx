@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = ({ clinicName, tagline }) => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/dental website assets/Bright_modern_dental_clinic_interior_with_c_0.jpg"
+          src="/Dental clinic images/dentist-428645_1280.jpg"
           alt="Modern dental clinic interior"
           fill
           sizes="100vw"

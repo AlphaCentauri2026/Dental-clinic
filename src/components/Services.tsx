@@ -15,11 +15,11 @@ interface ServicesProps {
 }
 
 const serviceImages = [
-  '/dental website assets/Dentist_examining_patients_teeth_with_denta_0.jpg',
-  '/dental website assets/Dental_cleaning_tools_neatly_arranged_on_a_0.jpg',
-  '/dental website assets/Closeup_of_dental_xray_being_shown_on_a_mon_0.jpg',
-  '/dental website assets/Portrait_of_a_smiling_male_dentist_in_white_0.jpg',
-  '/dental website assets/Happy_patient_smiling_in_a_dental_chair_fri_0.jpg'
+  '/Dental clinic images/dentist-1864921_1280.jpg',
+  '/Dental clinic images/dentist-2530990_1280.jpg',
+  '/Dental clinic images/dentist-4373290_1280.jpg',
+  '/Dental clinic images/dentist-998830_1280.jpg',
+  '/Dental clinic images/doctor-563429_1280.jpg'
 ];
 
 const Services: React.FC<ServicesProps> = ({ services }) => {

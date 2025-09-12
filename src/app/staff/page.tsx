@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Navigation from '../../components/Navigation';
+import ContactButton from '../../components/ContactButton';
 import Footer from '../../components/Footer';
 
 // Import data
@@ -13,7 +14,7 @@ import staffData from '../../data/staff.json';
 const extendedStaffData = [
   {
     ...staffData[0],
-    image: '/dental website assets/Portrait_of_a_female_dental_hygienist_weari_1.jpg',
+    image: '/Dental clinic images/dentist-1864921_1280.jpg',
     specialties: ['General Dentistry', 'Cosmetic Dentistry', 'Dental Implants'],
     education: 'DMD - New York University College of Dentistry',
     experience: '15+ years',
@@ -22,7 +23,7 @@ const extendedStaffData = [
   },
   {
     ...staffData[1],
-    image: '/dental website assets/Portrait_of_a_smiling_male_dentist_in_white_0.jpg',
+    image: '/Dental clinic images/dentist-2530990_1280.jpg',
     specialties: ['Orthodontics', 'Braces', 'Invisalign', 'Pediatric Dentistry'],
     education: 'DDS - Columbia University College of Dental Medicine',
     experience: '12+ years',
@@ -31,7 +32,7 @@ const extendedStaffData = [
   },
   {
     ...staffData[2],
-    image: '/dental website assets/Portrait_of_a_female_dental_hygienist_weari_2.jpg',
+    image: '/Dental clinic images/dentist-4373290_1280.jpg',
     specialties: ['Preventive Care', 'Patient Education', 'Periodontal Therapy'],
     education: 'RDH - Stony Brook University School of Dental Hygiene',
     experience: '8+ years',
@@ -48,13 +49,14 @@ export default function StaffPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation currentPage="staff" />
+      <ContactButton phone={clinicData.contact.phone} />
 
       <main>
         {/* Staff Hero Section */}
         <section className="relative py-32 bg-gradient-to-br from-blue-600 via-purple-600 to-teal-600 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/dental website assets/Group_photo_of_friendly_medical_staff_in_wh_2.jpg"
+              src="/Dental clinic images/pexels-fr3nks-287237.jpg"
               alt="Medical staff group"
               fill
               className="object-cover opacity-20"

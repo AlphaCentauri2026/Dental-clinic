@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Navigation from '../../components/Navigation';
+import ContactButton from '../../components/ContactButton';
 import Footer from '../../components/Footer';
 import About from '../../components/About';
 
@@ -44,13 +45,14 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation currentPage="about" />
+      <ContactButton phone={clinicData.contact.phone} />
 
       <main>
         {/* About Hero Section */}
         <section className="relative py-32 bg-gradient-to-br from-blue-600 via-teal-600 to-green-600 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/dental website assets/Exterior_of_a_modern_dental_clinic_building_1.jpg"
+              src="/Dental clinic images/dentist-998830_1280.jpg"
               alt="Modern dental clinic building"
               fill
               className="object-cover opacity-20"
@@ -177,25 +179,25 @@ export default function AboutPage() {
                     year: "2009",
                     title: "Founded",
                     description: "BrightSmile Dental Clinic opened its doors with a mission to provide exceptional dental care.",
-                    image: "/dental website assets/Exterior_of_a_modern_dental_clinic_building_2.jpg"
+                    image: "/Dental clinic images/doctor-563429_1280.jpg"
                   },
                   {
                     year: "2012",
                     title: "Expansion",
                     description: "Added advanced dental technology including digital X-rays and laser dentistry.",
-                    image: "/dental website assets/Bright_modern_dental_clinic_interior_with_c_2.jpg"
+                    image: "/Dental clinic images/pexels-fr3nks-305564.jpg"
                   },
                   {
                     year: "2015",
                     title: "Team Growth",
                     description: "Expanded our team of specialists and hygienists to better serve our growing patient base.",
-                    image: "/dental website assets/Group_photo_of_friendly_medical_staff_in_wh_1.jpg"
+                    image: "/Dental clinic images/pexels-fr3nks-305566.jpg"
                   },
                   {
                     year: "2024",
                     title: "Today",
                     description: "A full-service dental clinic committed to excellence and patient satisfaction.",
-                    image: "/dental website assets/Modern_clean_medical_office_with_reception_1.jpg"
+                    image: "/Dental clinic images/pexels-fr3nks-305568.jpg"
                   }
                 ].map((milestone, index) => (
                   <motion.div

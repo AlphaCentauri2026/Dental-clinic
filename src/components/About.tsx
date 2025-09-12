@@ -166,7 +166,7 @@ const About: React.FC<AboutProps> = ({ clinic }) => {
                 className="relative h-64 rounded-2xl overflow-hidden shadow-lg"
               >
                 <Image
-                  src="/dental website assets/Exterior_of_a_modern_dental_clinic_building_0.jpg"
+                  src="/Dental clinic images/dental-2450766_1280.jpg"
                   alt="Modern dental clinic exterior"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -179,7 +179,7 @@ const About: React.FC<AboutProps> = ({ clinic }) => {
                 className="relative h-64 rounded-2xl overflow-hidden shadow-lg mt-8"
               >
                 <Image
-                  src="/dental website assets/Bright_modern_dental_clinic_interior_with_c_1.jpg"
+                  src="/Dental clinic images/dentist-1864921_1280.jpg"
                   alt="Modern dental clinic interior"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -192,7 +192,7 @@ const About: React.FC<AboutProps> = ({ clinic }) => {
                 className="relative h-64 rounded-2xl overflow-hidden shadow-lg -mt-8"
               >
                 <Image
-                  src="/dental website assets/Modern_clean_medical_office_with_reception_0.jpg"
+                  src="/Dental clinic images/dentist-2530990_1280.jpg"
                   alt="Clean medical office reception"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -205,7 +205,7 @@ const About: React.FC<AboutProps> = ({ clinic }) => {
                 className="relative h-64 rounded-2xl overflow-hidden shadow-lg"
               >
                 <Image
-                  src="/dental website assets/Dental_cleaning_tools_neatly_arranged_on_a_1.jpg"
+                  src="/Dental clinic images/dentist-4373290_1280.jpg"
                   alt="Dental cleaning tools"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"

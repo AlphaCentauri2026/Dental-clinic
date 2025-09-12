@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Navigation from '../../components/Navigation';
+import ContactButton from '../../components/ContactButton';
 import Footer from '../../components/Footer';
 import Services from '../../components/Services';
 import Contact from '../../components/Contact';
@@ -14,6 +15,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation currentPage="services" />
+      <ContactButton phone={clinicData.contact.phone} />
 
       <main>
         {/* Services Hero Section */}

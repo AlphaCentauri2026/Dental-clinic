@@ -15,28 +15,28 @@ const Resources: React.FC = () => {
     {
       title: "Oral Health Tips",
       description: "Learn the best practices for maintaining healthy teeth and gums at home.",
-      image: "/dental website assets/Closeup_of_toothbrush_and_dental_floss_on_w_3.jpg",
+      image: "/Dental clinic images/pexels-fr3nks-305568.jpg",
       category: "Education",
       readTime: "5 min read"
     },
     {
       title: "Dental Emergency Guide",
       description: "Know what to do in case of dental emergencies and when to seek immediate care.",
-      image: "/dental website assets/Dentist_examining_patients_teeth_with_denta_1.jpg",
+      image: "/Dental clinic images/dentist-428645_1280.jpg",
       category: "Emergency",
       readTime: "3 min read"
     },
     {
       title: "Children's Dental Care",
       description: "Specialized tips for parents to ensure their children's dental health from an early age.",
-      image: "/dental website assets/Happy_patient_smiling_in_a_dental_chair_fri_2.jpg",
+      image: "/Dental clinic images/pexels-pavel-danilyuk-6812561.jpg",
       category: "Pediatrics",
       readTime: "7 min read"
     },
     {
       title: "Teeth Whitening Myths",
       description: "Separating fact from fiction when it comes to achieving a brighter smile.",
-      image: "/dental website assets/Dental_cleaning_tools_neatly_arranged_on_a_2.jpg",
+      image: "/Dental clinic images/pexels-polina-zimmerman-4687360.jpg",
       category: "Cosmetic",
       readTime: "4 min read"
     }

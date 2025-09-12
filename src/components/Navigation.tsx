@@ -44,7 +44,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage }) => {
               <Link
                 key={item.id}
                 href={item.href}
-                className={`relative px-3 py-2 text-sm font-medium transition-colors ${
+                className={`relative px-3 py-2 text-lg font-bold transition-colors ${
                   currentPage === item.id
                     ? 'text-blue-600'
                     : 'text-gray-700 hover:text-blue-600'
@@ -106,7 +106,7 @@ const Navigation: React.FC<NavigationProps> = ({ currentPage }) => {
                 key={item.id}
                 href={item.href}
                 onClick={() => setIsMenuOpen(false)}
-                className={`block px-3 py-2 text-base font-medium rounded-md transition-colors ${
+                className={`block px-3 py-2 text-lg font-bold rounded-md transition-colors ${
                   currentPage === item.id
                     ? 'text-blue-600 bg-blue-50'
                     : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'

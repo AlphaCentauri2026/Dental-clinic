@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Navigation from '../../components/Navigation';
+import ContactButton from '../../components/ContactButton';
 import Footer from '../../components/Footer';
 
 // Import data
@@ -54,13 +55,14 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation currentPage="contact" />
+      <ContactButton phone={clinicData.contact.phone} />
 
       <main>
         {/* Contact Hero Section */}
         <section className="relative py-32 bg-gradient-to-br from-blue-600 via-teal-600 to-green-600 text-white overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/dental website assets/Mapstyle_aerial_shot_of_medical_plaza_with_1.jpg"
+              src="/Dental clinic images/pexels-pixabay-52527.jpg"
               alt="Medical plaza aerial view"
               fill
               className="object-cover opacity-20"
@@ -338,7 +340,7 @@ export default function ContactPage() {
                 {/* Interactive Map */}
                 <div className="relative bg-gray-200 rounded-2xl h-96 overflow-hidden shadow-lg">
                   <Image
-                    src="/dental website assets/Mapstyle_aerial_shot_of_medical_plaza_with_0.jpg"
+                    src="/Dental clinic images/dental-2450766_1280.jpg"
                     alt="BrightSmile Dental Clinic Location - Medical Plaza Aerial View"
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 50vw"

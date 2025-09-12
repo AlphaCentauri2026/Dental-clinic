@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Navigation from '../components/Navigation';
+import ContactButton from '../components/ContactButton';
 import Hero from '../components/Hero';
 import Services from '../components/Services';
 import Staff from '../components/Staff';
@@ -22,6 +23,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation currentPage="home" />
+      <ContactButton phone={clinicData.contact.phone} />
 
       <main>
         <Hero
