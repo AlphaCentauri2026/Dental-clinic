@@ -25,7 +25,7 @@ export default function Home() {
       <Navigation currentPage="home" />
       <ContactButton phone={clinicData.contact.phone} />
 
-      <main>
+      <main className="pt-32">
         <Hero
           clinicName={clinicData.name}
           tagline={clinicData.tagline}

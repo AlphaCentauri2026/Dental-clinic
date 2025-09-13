@@ -17,7 +17,7 @@ export default function ServicesPage() {
       <Navigation currentPage="services" />
       <ContactButton phone={clinicData.contact.phone} />
 
-      <main>
+      <main className="pt-32">
         {/* Services Hero Section */}
         <section className="relative py-24 bg-gradient-to-br from-blue-600 to-teal-600 text-white overflow-hidden">
           <div className="absolute inset-0 bg-black/20"></div>

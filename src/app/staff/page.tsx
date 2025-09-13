@@ -51,7 +51,7 @@ export default function StaffPage() {
       <Navigation currentPage="staff" />
       <ContactButton phone={clinicData.contact.phone} />
 
-      <main>
+      <main className="pt-32">
         {/* Staff Hero Section */}
         <section className="relative py-32 bg-gradient-to-br from-blue-600 via-purple-600 to-teal-600 text-white overflow-hidden">
           <div className="absolute inset-0">

@@ -47,7 +47,7 @@ export default function AboutPage() {
       <Navigation currentPage="about" />
       <ContactButton phone={clinicData.contact.phone} />
 
-      <main>
+      <main className="pt-32">
         {/* About Hero Section */}
         <section className="relative py-32 bg-gradient-to-br from-blue-600 via-teal-600 to-green-600 text-white overflow-hidden">
           <div className="absolute inset-0">
